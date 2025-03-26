@@ -15,8 +15,8 @@ function App() {
     <div className='teamCard'>
       <h1>welcome to our page </h1>
       <div className='cardComponents'>
-       {cardData.map(card=>(
-          <TeamMemberCard key={card.id} title={card.name} description={card.description}/>
+       {cardData.map((card,index)=>(
+          <TeamMemberCard key={index} title={card.name} description={card.description}/>
         ))}
 
       </div>
