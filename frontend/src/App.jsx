@@ -19,7 +19,7 @@ function App() {
           <TeamMemberCard key={index} title={card.name} description={card.description}/>
         ))}
 
-      </div>
+     </div>
       
     </div>
   )
