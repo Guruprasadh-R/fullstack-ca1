@@ -1,9 +1,9 @@
-import TeamCard from "./TeamCard.css"
+import  "./TeamCard.css"
 
-function TeamMemberCard (name,description) {
+const  TeamMemberCard = ({title,description}) => {
   return (
     <div className="Card">
-        <h1>{name}</h1>
+        <h1>{title}</h1>
         <p>{description}</p> 
     </div>
   )
